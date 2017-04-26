@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+<div class="container">
+    <div class=row>
+        <h2 style="text-align: center">Add New Hutte</h2>
+        <div style="width: 30%; margin: 30px auto">
+            <form action="/campgrounds" method="POST" enctype="multipart/form-data">
+                <div class="form-group"><input class="form-control" type="text" placeholder="Hutte Name" name="name"></div>
+                <div class="form-group"><input class="form-control" type="number" placeholder="Price for one night" name="price" min="0.01" step="0.01"></div>
+                <div class="form-group"><input class="form-control" type="text" placeholder="Image URL" name="image"></div>
+                <p>OR</p>
+                <div class="form-group"><input class="form-control" type="file" name="imageup"></div>
+                <div class="form-group"><textarea class="form-control" placeholder="Description" name="description"></textarea></div>
+                <div class="form-group"><button class="btn-lg btn-primary btn-block">Add me!</button></div>
+            </form>
+        </div>
+    </div>
+</div>
+<% include ../partials/footer %>

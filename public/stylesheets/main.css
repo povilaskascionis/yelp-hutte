@@ -1,0 +1,23 @@
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail {
+    padding: 0px;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+.well textarea {
+    width: 100%;
+}
+
+#delete-form {
+    display: inline;
+}
+
+.form-inline {
+    padding-top: 8px
+}
+.thumbnail img {
+    max-height: 130px;
+}
